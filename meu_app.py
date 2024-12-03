@@ -6,7 +6,7 @@ st.set_page_config(page_title="Meu Site Streamlit")
 
 # Credenciais de login
 USUARIOS = {
-    "junior": "123",  # Adicione pares de usuário e senha conforme necessário
+    "junior": "123",  
 }
 
 def autenticar(usuario, senha):
@@ -35,8 +35,8 @@ else:
     # Interface principal do app
     with st.container():
         st.subheader("Streamlit Teste")
-        st.title("Dashboard de Contratos")
-        st.write("Informações sobre os contratos fechados pela Hash&Co ao longo de maio")
+        st.title("Dashboard de Teste")
+        
 
     @st.cache_data
     def carregar_dados():
